@@ -1,0 +1,15 @@
+(2009-09-29 22:35:36,875) -  INFO [main] (ConstantManager.java:44)[<clinit>] - Loading Constants... -
+(2009-09-29 22:35:36,938) - ERROR [main] (Server.java:50)[<init>] - Server new:EXCEPTION --- MESSAGE: Address already in use: Cannot bind
+ StackTrace:
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.PlainDatagramSocketImpl.bind(Unknown Source)
+	at java.net.DatagramSocket.bind(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at ppc.remoteguard.UDPMultiplexerServer.<init>(UDPMultiplexerServer.java:43)
+	at ppc.remoteguard.server.Server.<init>(Server.java:41)
+	at ppc.remoteguard.server.Server.main(Server.java:204)
+ -
+(2009-09-29 22:35:44,250) -  INFO [AWT-EventQueue-0] (ServerTray.java:69)[actionPerformed] - EXIT SERVER! -
+(2009-09-29 22:36:10,735) -  INFO [main] (ConstantManager.java:44)[<clinit>] - Loading Constants... -
